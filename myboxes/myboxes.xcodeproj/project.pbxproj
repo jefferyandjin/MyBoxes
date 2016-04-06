@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D9FF525A1CB5B47A00EF3066 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FF52591CB5B47A00EF3066 /* AppDelegate.swift */; };
-		D9FF525C1CB5B47A00EF3066 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FF525B1CB5B47A00EF3066 /* ViewController.swift */; };
+		D9FF525C1CB5B47A00EF3066 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FF525B1CB5B47A00EF3066 /* MainViewController.swift */; };
 		D9FF525F1CB5B47A00EF3066 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9FF525D1CB5B47A00EF3066 /* Main.storyboard */; };
 		D9FF52621CB5B47A00EF3066 /* myboxes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9FF52601CB5B47A00EF3066 /* myboxes.xcdatamodeld */; };
 		D9FF52641CB5B47A00EF3066 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9FF52631CB5B47A00EF3066 /* Assets.xcassets */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		D9FF52561CB5B47A00EF3066 /* myboxes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myboxes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9FF52591CB5B47A00EF3066 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D9FF525B1CB5B47A00EF3066 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9FF525B1CB5B47A00EF3066 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D9FF525E1CB5B47A00EF3066 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9FF52611CB5B47A00EF3066 /* myboxes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myboxes.xcdatamodel; sourceTree = "<group>"; };
 		D9FF52631CB5B47A00EF3066 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				D9FF52591CB5B47A00EF3066 /* AppDelegate.swift */,
-				D9FF525B1CB5B47A00EF3066 /* ViewController.swift */,
+				D9FF525B1CB5B47A00EF3066 /* MainViewController.swift */,
 				D9FF525D1CB5B47A00EF3066 /* Main.storyboard */,
 				D9FF52631CB5B47A00EF3066 /* Assets.xcassets */,
 				D9FF52651CB5B47A00EF3066 /* LaunchScreen.storyboard */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9FF525C1CB5B47A00EF3066 /* ViewController.swift in Sources */,
+				D9FF525C1CB5B47A00EF3066 /* MainViewController.swift in Sources */,
 				D9FF52621CB5B47A00EF3066 /* myboxes.xcdatamodeld in Sources */,
 				D9FF525A1CB5B47A00EF3066 /* AppDelegate.swift in Sources */,
 			);
@@ -404,6 +404,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = myboxes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = daybreakjj.com.myboxes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -415,6 +416,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = myboxes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = daybreakjj.com.myboxes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -488,6 +490,7 @@
 				D9FF52831CB5B47A00EF3066 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9FF52841CB5B47A00EF3066 /* Build configuration list for PBXNativeTarget "myboxesTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +499,7 @@
 				D9FF52861CB5B47A00EF3066 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9FF52871CB5B47A00EF3066 /* Build configuration list for PBXNativeTarget "myboxesUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +508,7 @@
 				D9FF52891CB5B47A00EF3066 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
